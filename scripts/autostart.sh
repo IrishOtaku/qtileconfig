@@ -47,8 +47,10 @@ picom -b --config ~/.config/qtile/picomqtile/picom.conf
 #run sxhkd -c ~/.config/qtile/sxhkd/sxhkdrc &
 
 
+
 #starting utility applications at boot time
 #run variety &
+run volctl &
 #run volctl --option1 --option2
 run nm-applet &
 #run volumeicon &
@@ -57,7 +59,7 @@ run pamac-tray &
 run xfce4-power-manager &
 numlockx on &
 #blueberry-tray &
-picom --config $HOME/.config/qtile/scripts/picom.conf &
+#picom --config $HOME/.config/qtile/scripts/picom.conf &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 /usr/lib/xfce4/notifyd/xfce4-notifyd &
 
@@ -66,8 +68,10 @@ run volumeicon &
 #run discord &
 nitrogen --restore &
 #run klipper &
-run qlipper & 
-run caffeine-ng &
+#run qlipper & 
+run diodon &
+#run caffeine-ng &
+run caffeine &
 #run caffeine -a &
 #run vivaldi-stable &
 #run firefox &

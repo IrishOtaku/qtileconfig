@@ -1,0 +1,5 @@
+
+
+
+
+autorandr --load xfcesetup
